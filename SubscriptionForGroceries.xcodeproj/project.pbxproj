@@ -22,6 +22,7 @@
 		8FA5589C2A1BD9BF005224AD /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA5589B2A1BD9BF005224AD /* BasketView.swift */; };
 		8FA5589E2A1BD9E8005224AD /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA5589D2A1BD9E8005224AD /* FavoritesView.swift */; };
 		8FA558A02A1BDA62005224AD /* PersonalPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA5589F2A1BDA62005224AD /* PersonalPageView.swift */; };
+		8FBB05332A1E74B900F15645 /* BasketCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB05322A1E74B900F15645 /* BasketCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		8FA5589B2A1BD9BF005224AD /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
 		8FA5589D2A1BD9E8005224AD /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		8FA5589F2A1BDA62005224AD /* PersonalPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPageView.swift; sourceTree = "<group>"; };
+		8FBB05322A1E74B900F15645 /* BasketCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		8FA5586F2A1B7A38005224AD = {
 			isa = PBXGroup;
 			children = (
+				8FBB05322A1E74B900F15645 /* BasketCardView.swift */,
 				8FA5587A2A1B7A38005224AD /* SubscriptionForGroceries */,
 				8FA558792A1B7A38005224AD /* Products */,
 			);
@@ -192,6 +195,7 @@
 				8FA5589E2A1BD9E8005224AD /* FavoritesView.swift in Sources */,
 				8FA558A02A1BDA62005224AD /* PersonalPageView.swift in Sources */,
 				8FA558962A1BA9CF005224AD /* FontStyles.swift in Sources */,
+				8FBB05332A1E74B900F15645 /* BasketCardView.swift in Sources */,
 				8FA5589A2A1BD972005224AD /* SearchMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
