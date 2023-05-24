@@ -9,8 +9,8 @@ import SwiftUI
 import PDFKit
 
 extension Color {
-    init(hex: String) {
-        let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
+    init(hexi: String) {
+        let hex = hexi.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int: UInt64 = 0
         Scanner(string: hex).scanHexInt64(&int)
         
@@ -67,7 +67,7 @@ struct HomePageView: View {
                 }
                 .frame(width: 358)
                 .padding([.leading,.bottom,.top],10)
-                .background(Color(hex:"#F5F5F5"))
+                .background(Color(hexi:"#F5F5F5"))
                 .cornerRadius(10)
                 
             }
