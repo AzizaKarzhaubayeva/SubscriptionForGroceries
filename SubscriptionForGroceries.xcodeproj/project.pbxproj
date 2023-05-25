@@ -24,6 +24,12 @@
 		8FA558A02A1BDA62005224AD /* PersonalPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA5589F2A1BDA62005224AD /* PersonalPageView.swift */; };
 		8FDBE4A82A1E7EB400779336 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDBE4A72A1E7EB400779336 /* CardView.swift */; };
 		8FDBE4AA2A1E839000779336 /* HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDBE4A92A1E839000779336 /* HexColors.swift */; };
+		8FDBE4AC2A1EB9D100779336 /* FoodBasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDBE4AB2A1EB9D100779336 /* FoodBasketView.swift */; };
+		8FDBE4AE2A1EF00000779336 /* DropDownMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDBE4AD2A1EF00000779336 /* DropDownMenuView.swift */; };
+		8FDBE4B02A1EF9C800779336 /* DropDownMenuOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDBE4AF2A1EF9C800779336 /* DropDownMenuOptions.swift */; };
+		8FDBE4B22A1EFA4B00779336 /* DropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDBE4B12A1EFA4B00779336 /* DropDownMenu.swift */; };
+		8FDBE4B42A1EFB4400779336 /* DropDownMenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDBE4B32A1EFB4400779336 /* DropDownMenuList.swift */; };
+		8FDBE4B62A1EFD3100779336 /* DropDownMenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDBE4B52A1EFD3100779336 /* DropDownMenuListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +52,12 @@
 		8FA5589F2A1BDA62005224AD /* PersonalPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPageView.swift; sourceTree = "<group>"; };
 		8FDBE4A72A1E7EB400779336 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		8FDBE4A92A1E839000779336 /* HexColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColors.swift; sourceTree = "<group>"; };
+		8FDBE4AB2A1EB9D100779336 /* FoodBasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBasketView.swift; sourceTree = "<group>"; };
+		8FDBE4AD2A1EF00000779336 /* DropDownMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DropDownMenuView.swift; path = "Preview Content/DropDownMenuView.swift"; sourceTree = "<group>"; };
+		8FDBE4AF2A1EF9C800779336 /* DropDownMenuOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuOptions.swift; sourceTree = "<group>"; };
+		8FDBE4B12A1EFA4B00779336 /* DropDownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenu.swift; sourceTree = "<group>"; };
+		8FDBE4B32A1EFB4400779336 /* DropDownMenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuList.swift; sourceTree = "<group>"; };
+		8FDBE4B52A1EFD3100779336 /* DropDownMenuListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,8 @@
 				8FA5587B2A1B7A38005224AD /* SubscriptionForGroceriesApp.swift */,
 				8FA5587D2A1B7A38005224AD /* ContentView.swift */,
 				8FA558972A1BD903005224AD /* HomePageView.swift */,
+				8FDBE4AB2A1EB9D100779336 /* FoodBasketView.swift */,
+				8FDBE4AD2A1EF00000779336 /* DropDownMenuView.swift */,
 				8FA558992A1BD972005224AD /* SearchMenuView.swift */,
 				8FA5589B2A1BD9BF005224AD /* BasketView.swift */,
 				8FDBE4A72A1E7EB400779336 /* CardView.swift */,
@@ -92,6 +106,7 @@
 				8FA5587F2A1B7A39005224AD /* Assets.xcassets */,
 				8FA558892A1BA55B005224AD /* Fonts */,
 				8FA558812A1B7A39005224AD /* Preview Content */,
+				8FDBE4B72A1F08EC00779336 /* Menu */,
 			);
 			path = SubscriptionForGroceries;
 			sourceTree = "<group>";
@@ -114,6 +129,17 @@
 				8FA5588A2A1BA807005224AD /* Inter-Bold.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8FDBE4B72A1F08EC00779336 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				8FDBE4B52A1EFD3100779336 /* DropDownMenuListRow.swift */,
+				8FDBE4B32A1EFB4400779336 /* DropDownMenuList.swift */,
+				8FDBE4B12A1EFA4B00779336 /* DropDownMenu.swift */,
+				8FDBE4AF2A1EF9C800779336 /* DropDownMenuOptions.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,12 +219,18 @@
 			files = (
 				8FA5589C2A1BD9BF005224AD /* BasketView.swift in Sources */,
 				8FDBE4A82A1E7EB400779336 /* CardView.swift in Sources */,
+				8FDBE4B02A1EF9C800779336 /* DropDownMenuOptions.swift in Sources */,
+				8FDBE4B42A1EFB4400779336 /* DropDownMenuList.swift in Sources */,
 				8FA5587E2A1B7A38005224AD /* ContentView.swift in Sources */,
 				8FA5587C2A1B7A38005224AD /* SubscriptionForGroceriesApp.swift in Sources */,
 				8FA558982A1BD903005224AD /* HomePageView.swift in Sources */,
+				8FDBE4AC2A1EB9D100779336 /* FoodBasketView.swift in Sources */,
+				8FDBE4AE2A1EF00000779336 /* DropDownMenuView.swift in Sources */,
 				8FA5589E2A1BD9E8005224AD /* FavoritesView.swift in Sources */,
+				8FDBE4B62A1EFD3100779336 /* DropDownMenuListRow.swift in Sources */,
 				8FA558A02A1BDA62005224AD /* PersonalPageView.swift in Sources */,
 				8FDBE4AA2A1E839000779336 /* HexColors.swift in Sources */,
+				8FDBE4B22A1EFA4B00779336 /* DropDownMenu.swift in Sources */,
 				8FA558962A1BA9CF005224AD /* FontStyles.swift in Sources */,
 				8FA5589A2A1BD972005224AD /* SearchMenuView.swift in Sources */,
 			);
